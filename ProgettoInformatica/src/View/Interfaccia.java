@@ -95,6 +95,11 @@ public class Interfaccia {
 	private JComboBox comboBox_3;
 	private JComboBox comboBox_4;
 	private JButton btnNewButton_4;
+	private JButton btnNewButton_6;
+	private JButton btnNewButton_7;
+	private JButton btnNewButton_8;
+	private JButton btnNewButton_9;
+	private JButton btnNewButton_10;
 
 	/**
 	 * Launch the application.
@@ -167,171 +172,135 @@ public class Interfaccia {
 		Home.add(lblNewLabel);
 		lblNewLabel.setIcon(new ImageIcon(Interfaccia.class.getResource("/View/mansion-miami.jpg")));
 		
-		Esci = new JPanel();
-		Esci.setLayout(null);
-		frame.getContentPane().add(Esci, "name_123770689002122");
+		JPanel Entrata = new JPanel();
+		frame.getContentPane().add(Entrata, "name_67755038939529");
+		Entrata.setLayout(null);
 		
-		textField_29 = new JTextField();
-		textField_29.setText("La Discoteca By Diggh & Sbortoo");
-		textField_29.setHorizontalAlignment(SwingConstants.CENTER);
-		textField_29.setFont(new Font("Bodoni 72 Oldstyle", Font.ITALIC, 15));
-		textField_29.setEditable(false);
-		textField_29.setColumns(10);
-		textField_29.setBackground(new Color(153, 50, 204));
-		textField_29.setBounds(0, 6, 500, 40);
-		Esci.add(textField_29);
-		
-		textField_58 = new JTextField();
-		textField_58.setText("Nome ");
-		textField_58.setEditable(false);
-		textField_58.setColumns(10);
-		textField_58.setBackground(Color.LIGHT_GRAY);
-		textField_58.setBounds(10, 58, 100, 26);
-		Esci.add(textField_58);
-		
-		textField_59 = new JTextField();
-		textField_59.setText("Cognome");
-		textField_59.setEditable(false);
-		textField_59.setColumns(10);
-		textField_59.setBackground(Color.LIGHT_GRAY);
-		textField_59.setBounds(150, 58, 100, 26);
-		Esci.add(textField_59);
-		
-		textField_61 = new JTextField();
-		textField_61.setEditable(false);
-		textField_61.setColumns(10);
-		textField_61.setBounds(10, 96, 100, 26);
-		Esci.add(textField_61);
-		
-		textField_62 = new JTextField();
-		textField_62.setEditable(false);
-		textField_62.setColumns(10);
-		textField_62.setBounds(10, 134, 100, 26);
-		Esci.add(textField_62);
-		
-		textField_63 = new JTextField();
-		textField_63.setEditable(false);
-		textField_63.setColumns(10);
-		textField_63.setBounds(10, 172, 100, 26);
-		Esci.add(textField_63);
-		
-		textField_64 = new JTextField();
-		textField_64.setEditable(false);
-		textField_64.setColumns(10);
-		textField_64.setBounds(10, 210, 100, 26);
-		Esci.add(textField_64);
-		
-		textField_65 = new JTextField();
-		textField_65.setEditable(false);
-		textField_65.setColumns(10);
-		textField_65.setBounds(10, 248, 100, 26);
-		Esci.add(textField_65);
-		
-		textField_66 = new JTextField();
-		textField_66.setEditable(false);
-		textField_66.setColumns(10);
-		textField_66.setBounds(10, 286, 100, 26);
-		Esci.add(textField_66);
-		
-		textField_67 = new JTextField();
-		textField_67.setEditable(false);
-		textField_67.setColumns(10);
-		textField_67.setBounds(10, 324, 100, 26);
-		Esci.add(textField_67);
-		
-		textField_68 = new JTextField();
-		textField_68.setEditable(false);
-		textField_68.setColumns(10);
-		textField_68.setBounds(150, 96, 100, 26);
-		Esci.add(textField_68);
-		
-		textField_69 = new JTextField();
-		textField_69.setEditable(false);
-		textField_69.setColumns(10);
-		textField_69.setBounds(150, 134, 100, 26);
-		Esci.add(textField_69);
-		
-		textField_70 = new JTextField();
-		textField_70.setEditable(false);
-		textField_70.setColumns(10);
-		textField_70.setBounds(150, 172, 100, 26);
-		Esci.add(textField_70);
-		
-		textField_71 = new JTextField();
-		textField_71.setEditable(false);
-		textField_71.setColumns(10);
-		textField_71.setBounds(150, 210, 100, 26);
-		Esci.add(textField_71);
-		
-		textField_72 = new JTextField();
-		textField_72.setEditable(false);
-		textField_72.setColumns(10);
-		textField_72.setBounds(150, 248, 100, 26);
-		Esci.add(textField_72);
-		
-		textField_73 = new JTextField();
-		textField_73.setEditable(false);
-		textField_73.setColumns(10);
-		textField_73.setBounds(150, 286, 100, 26);
-		Esci.add(textField_73);
-		
-		textField_74 = new JTextField();
-		textField_74.setEditable(false);
-		textField_74.setColumns(10);
-		textField_74.setBounds(150, 324, 100, 26);
-		Esci.add(textField_74);
-		
-		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("01");
-		chckbxNewCheckBox_1.setBounds(272, 136, 50, 23);
-		Esci.add(chckbxNewCheckBox_1);
-		
-		chckbxNewCheckBox_2 = new JCheckBox("00");
-		chckbxNewCheckBox_2.setBounds(275, 98, 50, 23);
-		Esci.add(chckbxNewCheckBox_2);
-		
-		chckbxNewCheckBox_3 = new JCheckBox("02");
-		chckbxNewCheckBox_3.setBounds(273, 174, 50, 23);
-		Esci.add(chckbxNewCheckBox_3);
-		
-		chckbxNewCheckBox_4 = new JCheckBox("03");
-		chckbxNewCheckBox_4.setBounds(274, 213, 50, 23);
-		Esci.add(chckbxNewCheckBox_4);
-		
-		chckbxNewCheckBox_5 = new JCheckBox("04");
-		chckbxNewCheckBox_5.setBounds(272, 249, 50, 23);
-		Esci.add(chckbxNewCheckBox_5);
-		
-		chckbxNewCheckBox_6 = new JCheckBox("05");
-		chckbxNewCheckBox_6.setBounds(272, 288, 50, 23);
-		Esci.add(chckbxNewCheckBox_6);
-		
-		chckbxNewCheckBox_7 = new JCheckBox("06");
-		chckbxNewCheckBox_7.setBounds(271, 325, 50, 23);
-		Esci.add(chckbxNewCheckBox_7);
-		
-		comboBox_3 = new JComboBox();
-		comboBox_3.setBackground(Color.LIGHT_GRAY);
-		comboBox_3.setBounds(273, 61, 107, 25);
-		Esci.add(comboBox_3);
-		
-		comboBox_4 = new JComboBox();
-		comboBox_4.setBackground(Color.LIGHT_GRAY);
-		comboBox_4.setBounds(385, 62, 109, 27);
-		Esci.add(comboBox_4);
-		
-		btnNewButton_4 = new JButton("Premere per Uscire");
-		btnNewButton_4.addActionListener(new ActionListener() {
+		btnNewButton_9 = new JButton("Avanti");
+		btnNewButton_9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Esci.setVisible(false);
+				Entrata.setVisible(false);
 				Visualizza.setVisible(true);
 			}
 		});
-		btnNewButton_4.setBounds(354, 211, 117, 29);
-		Esci.add(btnNewButton_4);
+		btnNewButton_9.setBounds(383, 6, 117, 29);
+		Entrata.add(btnNewButton_9);
+		
+		btnNewButton_10 = new JButton("Indietro");
+		btnNewButton_10.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Entrata.setVisible(false);
+				Inserisci.setVisible(true);
+			}
+		});
+		btnNewButton_10.setBounds(0, 6, 117, 29);
+		Entrata.add(btnNewButton_10);
+		
+		textField_1 = new JTextField();
+		textField_1.setText("La Discoteca By Diggh & Sbortoo");
+		textField_1.setHorizontalAlignment(SwingConstants.CENTER);
+		textField_1.setFont(new Font("Bodoni 72 Oldstyle", Font.ITALIC, 15));
+		textField_1.setEditable(false);
+		textField_1.setColumns(10);
+		textField_1.setBackground(new Color(153, 50, 204));
+		textField_1.setBounds(0, 0, 500, 40);
+		Entrata.add(textField_1);
+		
+		txtNome = new JTextField();
+		txtNome.setEditable(false);
+		txtNome.setText("Nome:");
+		txtNome.setBounds(6, 66, 130, 26);
+		Entrata.add(txtNome);
+		txtNome.setColumns(10);
+		
+		txtCognome = new JTextField();
+		txtCognome.setEditable(false);
+		txtCognome.setText("Cognome:");
+		txtCognome.setBounds(6, 114, 130, 26);
+		Entrata.add(txtCognome);
+		txtCognome.setColumns(10);
+		
+		txtEntrata = new JTextField();
+		txtEntrata.setEditable(false);
+		txtEntrata.setText("Entrata");
+		txtEntrata.setBounds(6, 233, 130, 26);
+		Entrata.add(txtEntrata);
+		txtEntrata.setColumns(10);
+		
+		txtEt = new JTextField();
+		txtEt.setEditable(false);
+		txtEt.setText("Età:");
+		txtEt.setBounds(6, 165, 130, 26);
+		Entrata.add(txtEt);
+		txtEt.setColumns(10);
+		
+		textField = new JTextField();
+		textField.setBackground(Color.LIGHT_GRAY);
+		textField.setBounds(171, 66, 130, 26);
+		Entrata.add(textField);
+		textField.setColumns(10);
+		
+		textField_2 = new JTextField();
+		textField_2.setBackground(Color.LIGHT_GRAY);
+		textField_2.setBounds(171, 114, 130, 26);
+		Entrata.add(textField_2);
+		textField_2.setColumns(10);
+		
+		textField_3 = new JTextField();
+		textField_3.setBackground(Color.LIGHT_GRAY);
+		textField_3.setBounds(171, 165, 130, 26);
+		Entrata.add(textField_3);
+		textField_3.setColumns(10);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Costo e Tipo", "Tavolo = 2,5€/h", "Privè = 5€/h", "Prevendita = 15€"}));
+		comboBox.setBackground(Color.LIGHT_GRAY);
+		comboBox.setBounds(171, 234, 130, 27);
+		Entrata.add(comboBox);
+		
+		txtIngresso = new JTextField();
+		txtIngresso.setEditable(false);
+		txtIngresso.setText("Ingresso");
+		txtIngresso.setBounds(6, 306, 130, 26);
+		Entrata.add(txtIngresso);
+		txtIngresso.setColumns(10);
+		
+		comboBox_1 = new JComboBox();
+		comboBox_1.setBackground(Color.LIGHT_GRAY);
+		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"Ore", "20 ", "21", "22", "23", "00", "01", "02", "03", "04", "05", "06"}));
+		comboBox_1.setBounds(171, 308, 130, 25);
+		Entrata.add(comboBox_1);
+		
+		comboBox_2 = new JComboBox();
+		comboBox_2.setBackground(Color.LIGHT_GRAY);
+		comboBox_2.setModel(new DefaultComboBoxModel(new String[] {"Minuti ", "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59"}));
+		comboBox_2.setBounds(313, 307, 115, 27);
+		Entrata.add(comboBox_2);
+		
 		
 		Visualizza = new JPanel();
 		frame.getContentPane().add(Visualizza, "name_121948058798144");
 		Visualizza.setLayout(null);
+		
+		btnNewButton_7 = new JButton("Indietro");
+		btnNewButton_7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Visualizza.setVisible(false);
+				Entrata.setVisible(true);
+			}
+		});
+		btnNewButton_7.setBounds(0, 13, 117, 29);
+		Visualizza.add(btnNewButton_7);
+		
+		btnNewButton_8 = new JButton("Avanti");
+		btnNewButton_8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Esci.setVisible(true);
+				Visualizza.setVisible(false);
+			}
+		});
+		btnNewButton_8.setBounds(383, 13, 117, 29);
+		Visualizza.add(btnNewButton_8);
 		
 		textField_4 = new JTextField();
 		textField_4.setBounds(0, 6, 500, 40);
@@ -543,9 +512,187 @@ public class Interfaccia {
 		textField_57.setBounds(404, 324, 75, 26);
 		Visualizza.add(textField_57);
 		
-		JPanel Entrata = new JPanel();
-		frame.getContentPane().add(Entrata, "name_67755038939529");
-		Entrata.setLayout(null);
+		Esci = new JPanel();
+		Esci.setLayout(null);
+		frame.getContentPane().add(Esci, "name_123770689002122");
+		
+		JButton btnNewButton_5 = new JButton("Indietro");
+		btnNewButton_5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Esci.setVisible(false);
+				Visualizza.setVisible(true);
+			}
+		});
+		btnNewButton_5.setBounds(6, 13, 117, 29);
+		Esci.add(btnNewButton_5);
+		
+		btnNewButton_6 = new JButton("Avanti");
+		btnNewButton_6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Esci.setVisible(false);
+				Home.setVisible(true);
+			}
+		});
+		btnNewButton_6.setBounds(383, 13, 117, 29);
+		Esci.add(btnNewButton_6);
+		
+		textField_29 = new JTextField();
+		textField_29.setText("La Discoteca By Diggh & Sbortoo");
+		textField_29.setHorizontalAlignment(SwingConstants.CENTER);
+		textField_29.setFont(new Font("Bodoni 72 Oldstyle", Font.ITALIC, 15));
+		textField_29.setEditable(false);
+		textField_29.setColumns(10);
+		textField_29.setBackground(new Color(153, 50, 204));
+		textField_29.setBounds(0, 6, 500, 40);
+		Esci.add(textField_29);
+		
+		textField_58 = new JTextField();
+		textField_58.setText("Nome ");
+		textField_58.setEditable(false);
+		textField_58.setColumns(10);
+		textField_58.setBackground(Color.LIGHT_GRAY);
+		textField_58.setBounds(10, 58, 100, 26);
+		Esci.add(textField_58);
+		
+		textField_59 = new JTextField();
+		textField_59.setText("Cognome");
+		textField_59.setEditable(false);
+		textField_59.setColumns(10);
+		textField_59.setBackground(Color.LIGHT_GRAY);
+		textField_59.setBounds(150, 58, 100, 26);
+		Esci.add(textField_59);
+		
+		textField_61 = new JTextField();
+		textField_61.setEditable(false);
+		textField_61.setColumns(10);
+		textField_61.setBounds(10, 96, 100, 26);
+		Esci.add(textField_61);
+		
+		textField_62 = new JTextField();
+		textField_62.setEditable(false);
+		textField_62.setColumns(10);
+		textField_62.setBounds(10, 134, 100, 26);
+		Esci.add(textField_62);
+		
+		textField_63 = new JTextField();
+		textField_63.setEditable(false);
+		textField_63.setColumns(10);
+		textField_63.setBounds(10, 172, 100, 26);
+		Esci.add(textField_63);
+		
+		textField_64 = new JTextField();
+		textField_64.setEditable(false);
+		textField_64.setColumns(10);
+		textField_64.setBounds(10, 210, 100, 26);
+		Esci.add(textField_64);
+		
+		textField_65 = new JTextField();
+		textField_65.setEditable(false);
+		textField_65.setColumns(10);
+		textField_65.setBounds(10, 248, 100, 26);
+		Esci.add(textField_65);
+		
+		textField_66 = new JTextField();
+		textField_66.setEditable(false);
+		textField_66.setColumns(10);
+		textField_66.setBounds(10, 286, 100, 26);
+		Esci.add(textField_66);
+		
+		textField_67 = new JTextField();
+		textField_67.setEditable(false);
+		textField_67.setColumns(10);
+		textField_67.setBounds(10, 324, 100, 26);
+		Esci.add(textField_67);
+		
+		textField_68 = new JTextField();
+		textField_68.setEditable(false);
+		textField_68.setColumns(10);
+		textField_68.setBounds(150, 96, 100, 26);
+		Esci.add(textField_68);
+		
+		textField_69 = new JTextField();
+		textField_69.setEditable(false);
+		textField_69.setColumns(10);
+		textField_69.setBounds(150, 134, 100, 26);
+		Esci.add(textField_69);
+		
+		textField_70 = new JTextField();
+		textField_70.setEditable(false);
+		textField_70.setColumns(10);
+		textField_70.setBounds(150, 172, 100, 26);
+		Esci.add(textField_70);
+		
+		textField_71 = new JTextField();
+		textField_71.setEditable(false);
+		textField_71.setColumns(10);
+		textField_71.setBounds(150, 210, 100, 26);
+		Esci.add(textField_71);
+		
+		textField_72 = new JTextField();
+		textField_72.setEditable(false);
+		textField_72.setColumns(10);
+		textField_72.setBounds(150, 248, 100, 26);
+		Esci.add(textField_72);
+		
+		textField_73 = new JTextField();
+		textField_73.setEditable(false);
+		textField_73.setColumns(10);
+		textField_73.setBounds(150, 286, 100, 26);
+		Esci.add(textField_73);
+		
+		textField_74 = new JTextField();
+		textField_74.setEditable(false);
+		textField_74.setColumns(10);
+		textField_74.setBounds(150, 324, 100, 26);
+		Esci.add(textField_74);
+		
+		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("01");
+		chckbxNewCheckBox_1.setBounds(272, 136, 50, 23);
+		Esci.add(chckbxNewCheckBox_1);
+		
+		chckbxNewCheckBox_2 = new JCheckBox("00");
+		chckbxNewCheckBox_2.setBounds(275, 98, 50, 23);
+		Esci.add(chckbxNewCheckBox_2);
+		
+		chckbxNewCheckBox_3 = new JCheckBox("02");
+		chckbxNewCheckBox_3.setBounds(273, 174, 50, 23);
+		Esci.add(chckbxNewCheckBox_3);
+		
+		chckbxNewCheckBox_4 = new JCheckBox("03");
+		chckbxNewCheckBox_4.setBounds(274, 213, 50, 23);
+		Esci.add(chckbxNewCheckBox_4);
+		
+		chckbxNewCheckBox_5 = new JCheckBox("04");
+		chckbxNewCheckBox_5.setBounds(272, 249, 50, 23);
+		Esci.add(chckbxNewCheckBox_5);
+		
+		chckbxNewCheckBox_6 = new JCheckBox("05");
+		chckbxNewCheckBox_6.setBounds(272, 288, 50, 23);
+		Esci.add(chckbxNewCheckBox_6);
+		
+		chckbxNewCheckBox_7 = new JCheckBox("06");
+		chckbxNewCheckBox_7.setBounds(271, 325, 50, 23);
+		Esci.add(chckbxNewCheckBox_7);
+		
+		comboBox_3 = new JComboBox();
+		comboBox_3.setBackground(Color.LIGHT_GRAY);
+		comboBox_3.setBounds(273, 61, 107, 25);
+		Esci.add(comboBox_3);
+		
+		comboBox_4 = new JComboBox();
+		comboBox_4.setBackground(Color.LIGHT_GRAY);
+		comboBox_4.setBounds(385, 62, 109, 27);
+		Esci.add(comboBox_4);
+		
+		btnNewButton_4 = new JButton("Premere per Uscire");
+		btnNewButton_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Esci.setVisible(false);
+				Visualizza.setVisible(true);
+			}
+		});
+		btnNewButton_4.setBounds(354, 211, 117, 29);
+		Esci.add(btnNewButton_4);
 		
 		JButton btnNewButton_1 = new JButton("Inserisci");
 		btnNewButton_1.addActionListener(new ActionListener() {
@@ -576,88 +723,5 @@ public class Interfaccia {
 		});
 		btnNewButton_3.setBounds(270, 83, 189, 41);
 		Inserisci.add(btnNewButton_3);
-		
-		
-		
-		textField_1 = new JTextField();
-		textField_1.setText("La Discoteca By Diggh & Sbortoo");
-		textField_1.setHorizontalAlignment(SwingConstants.CENTER);
-		textField_1.setFont(new Font("Bodoni 72 Oldstyle", Font.ITALIC, 15));
-		textField_1.setEditable(false);
-		textField_1.setColumns(10);
-		textField_1.setBackground(new Color(153, 50, 204));
-		textField_1.setBounds(0, 0, 500, 40);
-		Entrata.add(textField_1);
-		
-		txtNome = new JTextField();
-		txtNome.setEditable(false);
-		txtNome.setText("Nome:");
-		txtNome.setBounds(6, 66, 130, 26);
-		Entrata.add(txtNome);
-		txtNome.setColumns(10);
-		
-		txtCognome = new JTextField();
-		txtCognome.setEditable(false);
-		txtCognome.setText("Cognome:");
-		txtCognome.setBounds(6, 114, 130, 26);
-		Entrata.add(txtCognome);
-		txtCognome.setColumns(10);
-		
-		txtEntrata = new JTextField();
-		txtEntrata.setEditable(false);
-		txtEntrata.setText("Entrata");
-		txtEntrata.setBounds(6, 233, 130, 26);
-		Entrata.add(txtEntrata);
-		txtEntrata.setColumns(10);
-		
-		txtEt = new JTextField();
-		txtEt.setEditable(false);
-		txtEt.setText("Età:");
-		txtEt.setBounds(6, 165, 130, 26);
-		Entrata.add(txtEt);
-		txtEt.setColumns(10);
-		
-		textField = new JTextField();
-		textField.setBackground(Color.LIGHT_GRAY);
-		textField.setBounds(171, 66, 130, 26);
-		Entrata.add(textField);
-		textField.setColumns(10);
-		
-		textField_2 = new JTextField();
-		textField_2.setBackground(Color.LIGHT_GRAY);
-		textField_2.setBounds(171, 114, 130, 26);
-		Entrata.add(textField_2);
-		textField_2.setColumns(10);
-		
-		textField_3 = new JTextField();
-		textField_3.setBackground(Color.LIGHT_GRAY);
-		textField_3.setBounds(171, 165, 130, 26);
-		Entrata.add(textField_3);
-		textField_3.setColumns(10);
-		
-		JComboBox comboBox = new JComboBox();
-		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Costo e Tipo", "Tavolo = 2,5€/h", "Privè = 5€/h", "Prevendita = 15€"}));
-		comboBox.setBackground(Color.LIGHT_GRAY);
-		comboBox.setBounds(171, 234, 130, 27);
-		Entrata.add(comboBox);
-		
-		txtIngresso = new JTextField();
-		txtIngresso.setEditable(false);
-		txtIngresso.setText("Ingresso");
-		txtIngresso.setBounds(6, 306, 130, 26);
-		Entrata.add(txtIngresso);
-		txtIngresso.setColumns(10);
-		
-		comboBox_1 = new JComboBox();
-		comboBox_1.setBackground(Color.LIGHT_GRAY);
-		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"Ore", "20 ", "21", "22", "23", "00", "01", "02", "03", "04", "05", "06"}));
-		comboBox_1.setBounds(171, 308, 130, 25);
-		Entrata.add(comboBox_1);
-		
-		comboBox_2 = new JComboBox();
-		comboBox_2.setBackground(Color.LIGHT_GRAY);
-		comboBox_2.setModel(new DefaultComboBoxModel(new String[] {"Minuti ", "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59"}));
-		comboBox_2.setBounds(313, 307, 115, 27);
-		Entrata.add(comboBox_2);
 	}
 }
