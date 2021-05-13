@@ -675,13 +675,15 @@ public class Interfaccia {
 		Esci.add(chckbxNewCheckBox_7);
 		
 		comboBox_3 = new JComboBox();
+		comboBox_3.setModel(new DefaultComboBoxModel(new String[] {"Ore", "20 ", "21", "22", "23", "00", "01", "02", "03", "04", "05", "06"}));
 		comboBox_3.setBackground(Color.LIGHT_GRAY);
 		comboBox_3.setBounds(273, 61, 107, 25);
 		Esci.add(comboBox_3);
 		
 		comboBox_4 = new JComboBox();
+		comboBox_4.setModel(new DefaultComboBoxModel(new String[] {"Minuti ", "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59"}));
 		comboBox_4.setBackground(Color.LIGHT_GRAY);
-		comboBox_4.setBounds(385, 62, 109, 27);
+		comboBox_4.setBounds(383, 59, 109, 27);
 		Esci.add(comboBox_4);
 		
 		btnNewButton_4 = new JButton("Premere per Uscire");
