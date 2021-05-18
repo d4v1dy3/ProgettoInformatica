@@ -9,6 +9,7 @@ import javax.swing.SwingConstants;
 import java.awt.Font;
 import java.awt.Color;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JPanel;
@@ -102,637 +103,6 @@ public class Interfaccia {
 	private JButton btnNewButton_10;
 	private int count=0;
 
-	public JFrame getFrame() {
-		return frame;
-	}
-
-	public void setFrame(JFrame frame) {
-		this.frame = frame;
-	}
-
-	public JTextField getTxtLaDiscoteca() {
-		return txtLaDiscoteca;
-	}
-
-	public void setTxtLaDiscoteca(JTextField txtLaDiscoteca) {
-		this.txtLaDiscoteca = txtLaDiscoteca;
-	}
-
-	public JTextField getTextField_1() {
-		return textField_1;
-	}
-
-	public void setTextField_1(JTextField textField_1) {
-		this.textField_1 = textField_1;
-	}
-
-	public JTextField getTxtNome() {
-		return txtNome;
-	}
-
-	public void setTxtNome(JTextField txtNome) {
-		this.txtNome = txtNome;
-	}
-
-	public JTextField getTxtCognome() {
-		return txtCognome;
-	}
-
-	public void setTxtCognome(JTextField txtCognome) {
-		this.txtCognome = txtCognome;
-	}
-
-	public JTextField getTxtEntrata() {
-		return txtEntrata;
-	}
-
-	public void setTxtEntrata(JTextField txtEntrata) {
-		this.txtEntrata = txtEntrata;
-	}
-
-	public JTextField getTxtEt() {
-		return txtEt;
-	}
-
-	public void setTxtEt(JTextField txtEt) {
-		this.txtEt = txtEt;
-	}
-
-	public JTextField getTextField() {
-		return textField;
-	}
-
-	public void setTextField(JTextField textField) {
-		this.textField = textField;
-	}
-
-	public JTextField getTextField_2() {
-		return textField_2;
-	}
-
-	public void setTextField_2(JTextField textField_2) {
-		this.textField_2 = textField_2;
-	}
-
-	public JTextField getTextField_3() {
-		return textField_3;
-	}
-
-	public void setTextField_3(JTextField textField_3) {
-		this.textField_3 = textField_3;
-	}
-
-	public JTextField getTxtIngresso() {
-		return txtIngresso;
-	}
-
-	public void setTxtIngresso(JTextField txtIngresso) {
-		this.txtIngresso = txtIngresso;
-	}
-
-	public JComboBox getComboBox_1() {
-		return comboBox_1;
-	}
-
-	public void setComboBox_1(JComboBox comboBox_1) {
-		this.comboBox_1 = comboBox_1;
-	}
-
-	public JComboBox getComboBox_2() {
-		return comboBox_2;
-	}
-
-	public void setComboBox_2(JComboBox comboBox_2) {
-		this.comboBox_2 = comboBox_2;
-	}
-
-	public JPanel getVisualizza() {
-		return Visualizza;
-	}
-
-	public void setVisualizza(JPanel visualizza) {
-		Visualizza = visualizza;
-	}
-
-	public JTextField getTextField_4() {
-		return textField_4;
-	}
-
-	public void setTextField_4(JTextField textField_4) {
-		this.textField_4 = textField_4;
-	}
-
-	public JTextField getTxtNome_1() {
-		return txtNome_1;
-	}
-
-	public void setTxtNome_1(JTextField txtNome_1) {
-		this.txtNome_1 = txtNome_1;
-	}
-
-	public JTextField getTxtCognome_1() {
-		return txtCognome_1;
-	}
-
-	public void setTxtCognome_1(JTextField txtCognome_1) {
-		this.txtCognome_1 = txtCognome_1;
-	}
-
-	public JTextField getTxtEntrata_1() {
-		return txtEntrata_1;
-	}
-
-	public void setTxtEntrata_1(JTextField txtEntrata_1) {
-		this.txtEntrata_1 = txtEntrata_1;
-	}
-
-	public JTextField getTextField_5() {
-		return textField_5;
-	}
-
-	public void setTextField_5(JTextField textField_5) {
-		this.textField_5 = textField_5;
-	}
-
-	public JTextField getTextField_6() {
-		return textField_6;
-	}
-
-	public void setTextField_6(JTextField textField_6) {
-		this.textField_6 = textField_6;
-	}
-
-	public JTextField getTextField_7() {
-		return textField_7;
-	}
-
-	public void setTextField_7(JTextField textField_7) {
-		this.textField_7 = textField_7;
-	}
-
-	public JTextField getTextField_8() {
-		return textField_8;
-	}
-
-	public void setTextField_8(JTextField textField_8) {
-		this.textField_8 = textField_8;
-	}
-
-	public JTextField getTextField_9() {
-		return textField_9;
-	}
-
-	public void setTextField_9(JTextField textField_9) {
-		this.textField_9 = textField_9;
-	}
-
-	public JTextField getTextField_10() {
-		return textField_10;
-	}
-
-	public void setTextField_10(JTextField textField_10) {
-		this.textField_10 = textField_10;
-	}
-
-	public JTextField getTextField_11() {
-		return textField_11;
-	}
-
-	public void setTextField_11(JTextField textField_11) {
-		this.textField_11 = textField_11;
-	}
-
-	public JTextField getTextField_12() {
-		return textField_12;
-	}
-
-	public void setTextField_12(JTextField textField_12) {
-		this.textField_12 = textField_12;
-	}
-
-	public JTextField getTextField_13() {
-		return textField_13;
-	}
-
-	public void setTextField_13(JTextField textField_13) {
-		this.textField_13 = textField_13;
-	}
-
-	public JTextField getTextField_14() {
-		return textField_14;
-	}
-
-	public void setTextField_14(JTextField textField_14) {
-		this.textField_14 = textField_14;
-	}
-
-	public JTextField getTextField_15() {
-		return textField_15;
-	}
-
-	public void setTextField_15(JTextField textField_15) {
-		this.textField_15 = textField_15;
-	}
-
-	public JTextField getTextField_16() {
-		return textField_16;
-	}
-
-	public void setTextField_16(JTextField textField_16) {
-		this.textField_16 = textField_16;
-	}
-
-	public JTextField getTextField_17() {
-		return textField_17;
-	}
-
-	public void setTextField_17(JTextField textField_17) {
-		this.textField_17 = textField_17;
-	}
-
-	public JTextField getTextField_18() {
-		return textField_18;
-	}
-
-	public void setTextField_18(JTextField textField_18) {
-		this.textField_18 = textField_18;
-	}
-
-	public JTextField getTextField_19() {
-		return textField_19;
-	}
-
-	public void setTextField_19(JTextField textField_19) {
-		this.textField_19 = textField_19;
-	}
-
-	public JTextField getTextField_20() {
-		return textField_20;
-	}
-
-	public void setTextField_20(JTextField textField_20) {
-		this.textField_20 = textField_20;
-	}
-
-	public JTextField getTextField_21() {
-		return textField_21;
-	}
-
-	public void setTextField_21(JTextField textField_21) {
-		this.textField_21 = textField_21;
-	}
-
-	public JTextField getTextField_22() {
-		return textField_22;
-	}
-
-	public void setTextField_22(JTextField textField_22) {
-		this.textField_22 = textField_22;
-	}
-
-	public JTextField getTextField_23() {
-		return textField_23;
-	}
-
-	public void setTextField_23(JTextField textField_23) {
-		this.textField_23 = textField_23;
-	}
-
-	public JTextField getTextField_24() {
-		return textField_24;
-	}
-
-	public void setTextField_24(JTextField textField_24) {
-		this.textField_24 = textField_24;
-	}
-
-	public JTextField getTextField_25() {
-		return textField_25;
-	}
-
-	public void setTextField_25(JTextField textField_25) {
-		this.textField_25 = textField_25;
-	}
-
-	public JTextField getTxtUscita_1() {
-		return txtUscita_1;
-	}
-
-	public void setTxtUscita_1(JTextField txtUscita_1) {
-		this.txtUscita_1 = txtUscita_1;
-	}
-
-	public JTextField getTextField_51() {
-		return textField_51;
-	}
-
-	public void setTextField_51(JTextField textField_51) {
-		this.textField_51 = textField_51;
-	}
-
-	public JTextField getTextField_52() {
-		return textField_52;
-	}
-
-	public void setTextField_52(JTextField textField_52) {
-		this.textField_52 = textField_52;
-	}
-
-	public JTextField getTextField_53() {
-		return textField_53;
-	}
-
-	public void setTextField_53(JTextField textField_53) {
-		this.textField_53 = textField_53;
-	}
-
-	public JTextField getTextField_54() {
-		return textField_54;
-	}
-
-	public void setTextField_54(JTextField textField_54) {
-		this.textField_54 = textField_54;
-	}
-
-	public JTextField getTextField_55() {
-		return textField_55;
-	}
-
-	public void setTextField_55(JTextField textField_55) {
-		this.textField_55 = textField_55;
-	}
-
-	public JTextField getTextField_56() {
-		return textField_56;
-	}
-
-	public void setTextField_56(JTextField textField_56) {
-		this.textField_56 = textField_56;
-	}
-
-	public JTextField getTextField_57() {
-		return textField_57;
-	}
-
-	public void setTextField_57(JTextField textField_57) {
-		this.textField_57 = textField_57;
-	}
-
-	public JPanel getEsci() {
-		return Esci;
-	}
-
-	public void setEsci(JPanel esci) {
-		Esci = esci;
-	}
-
-	public JTextField getTextField_29() {
-		return textField_29;
-	}
-
-	public void setTextField_29(JTextField textField_29) {
-		this.textField_29 = textField_29;
-	}
-
-	public JTextField getTextField_58() {
-		return textField_58;
-	}
-
-	public void setTextField_58(JTextField textField_58) {
-		this.textField_58 = textField_58;
-	}
-
-	public JTextField getTextField_59() {
-		return textField_59;
-	}
-
-	public void setTextField_59(JTextField textField_59) {
-		this.textField_59 = textField_59;
-	}
-
-	public JTextField getTextField_61() {
-		return textField_61;
-	}
-
-	public void setTextField_61(JTextField textField_61) {
-		this.textField_61 = textField_61;
-	}
-
-	public JTextField getTextField_62() {
-		return textField_62;
-	}
-
-	public void setTextField_62(JTextField textField_62) {
-		this.textField_62 = textField_62;
-	}
-
-	public JTextField getTextField_63() {
-		return textField_63;
-	}
-
-	public void setTextField_63(JTextField textField_63) {
-		this.textField_63 = textField_63;
-	}
-
-	public JTextField getTextField_64() {
-		return textField_64;
-	}
-
-	public void setTextField_64(JTextField textField_64) {
-		this.textField_64 = textField_64;
-	}
-
-	public JTextField getTextField_65() {
-		return textField_65;
-	}
-
-	public void setTextField_65(JTextField textField_65) {
-		this.textField_65 = textField_65;
-	}
-
-	public JTextField getTextField_66() {
-		return textField_66;
-	}
-
-	public void setTextField_66(JTextField textField_66) {
-		this.textField_66 = textField_66;
-	}
-
-	public JTextField getTextField_67() {
-		return textField_67;
-	}
-
-	public void setTextField_67(JTextField textField_67) {
-		this.textField_67 = textField_67;
-	}
-
-	public JTextField getTextField_68() {
-		return textField_68;
-	}
-
-	public void setTextField_68(JTextField textField_68) {
-		this.textField_68 = textField_68;
-	}
-
-	public JTextField getTextField_69() {
-		return textField_69;
-	}
-
-	public void setTextField_69(JTextField textField_69) {
-		this.textField_69 = textField_69;
-	}
-
-	public JTextField getTextField_70() {
-		return textField_70;
-	}
-
-	public void setTextField_70(JTextField textField_70) {
-		this.textField_70 = textField_70;
-	}
-
-	public JTextField getTextField_71() {
-		return textField_71;
-	}
-
-	public void setTextField_71(JTextField textField_71) {
-		this.textField_71 = textField_71;
-	}
-
-	public JTextField getTextField_72() {
-		return textField_72;
-	}
-
-	public void setTextField_72(JTextField textField_72) {
-		this.textField_72 = textField_72;
-	}
-
-	public JTextField getTextField_73() {
-		return textField_73;
-	}
-
-	public void setTextField_73(JTextField textField_73) {
-		this.textField_73 = textField_73;
-	}
-
-	public JTextField getTextField_74() {
-		return textField_74;
-	}
-
-	public void setTextField_74(JTextField textField_74) {
-		this.textField_74 = textField_74;
-	}
-
-	public JCheckBox getChckbxNewCheckBox_2() {
-		return chckbxNewCheckBox_2;
-	}
-
-	public void setChckbxNewCheckBox_2(JCheckBox chckbxNewCheckBox_2) {
-		this.chckbxNewCheckBox_2 = chckbxNewCheckBox_2;
-	}
-
-	public JCheckBox getChckbxNewCheckBox_3() {
-		return chckbxNewCheckBox_3;
-	}
-
-	public void setChckbxNewCheckBox_3(JCheckBox chckbxNewCheckBox_3) {
-		this.chckbxNewCheckBox_3 = chckbxNewCheckBox_3;
-	}
-
-	public JCheckBox getChckbxNewCheckBox_4() {
-		return chckbxNewCheckBox_4;
-	}
-
-	public void setChckbxNewCheckBox_4(JCheckBox chckbxNewCheckBox_4) {
-		this.chckbxNewCheckBox_4 = chckbxNewCheckBox_4;
-	}
-
-	public JCheckBox getChckbxNewCheckBox_5() {
-		return chckbxNewCheckBox_5;
-	}
-
-	public void setChckbxNewCheckBox_5(JCheckBox chckbxNewCheckBox_5) {
-		this.chckbxNewCheckBox_5 = chckbxNewCheckBox_5;
-	}
-
-	public JCheckBox getChckbxNewCheckBox_6() {
-		return chckbxNewCheckBox_6;
-	}
-
-	public void setChckbxNewCheckBox_6(JCheckBox chckbxNewCheckBox_6) {
-		this.chckbxNewCheckBox_6 = chckbxNewCheckBox_6;
-	}
-
-	public JCheckBox getChckbxNewCheckBox_7() {
-		return chckbxNewCheckBox_7;
-	}
-
-	public void setChckbxNewCheckBox_7(JCheckBox chckbxNewCheckBox_7) {
-		this.chckbxNewCheckBox_7 = chckbxNewCheckBox_7;
-	}
-
-	public JComboBox getComboBox_3() {
-		return comboBox_3;
-	}
-
-	public void setComboBox_3(JComboBox comboBox_3) {
-		this.comboBox_3 = comboBox_3;
-	}
-
-	public JComboBox getComboBox_4() {
-		return comboBox_4;
-	}
-
-	public void setComboBox_4(JComboBox comboBox_4) {
-		this.comboBox_4 = comboBox_4;
-	}
-
-	public JButton getBtnNewButton_4() {
-		return btnNewButton_4;
-	}
-
-	public void setBtnNewButton_4(JButton btnNewButton_4) {
-		this.btnNewButton_4 = btnNewButton_4;
-	}
-
-	public JButton getBtnNewButton_6() {
-		return btnNewButton_6;
-	}
-
-	public void setBtnNewButton_6(JButton btnNewButton_6) {
-		this.btnNewButton_6 = btnNewButton_6;
-	}
-
-	public JButton getBtnNewButton_7() {
-		return btnNewButton_7;
-	}
-
-	public void setBtnNewButton_7(JButton btnNewButton_7) {
-		this.btnNewButton_7 = btnNewButton_7;
-	}
-
-	public JButton getBtnNewButton_8() {
-		return btnNewButton_8;
-	}
-
-	public void setBtnNewButton_8(JButton btnNewButton_8) {
-		this.btnNewButton_8 = btnNewButton_8;
-	}
-
-	public JButton getBtnNewButton_9() {
-		return btnNewButton_9;
-	}
-
-	public void setBtnNewButton_9(JButton btnNewButton_9) {
-		this.btnNewButton_9 = btnNewButton_9;
-	}
-
-	public JButton getBtnNewButton_10() {
-		return btnNewButton_10;
-	}
-
-	public void setBtnNewButton_10(JButton btnNewButton_10) {
-		this.btnNewButton_10 = btnNewButton_10;
-	}
 
 	/**
 	 * Launch the application.
@@ -812,15 +182,23 @@ public class Interfaccia {
 		btnNewButton_9 = new JButton("Avanti");
 		btnNewButton_9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				count++;
+			int h=0;
 				String a=textField.getText();
 				String b=textField_2.getText();
 				String c=textField_3.getText();
 				int d=Integer.parseInt(c);
 				String f=comboBox_1.getSelectedItem().toString();
+			
+				h=Integer.parseInt(f);
+			
 				String g=comboBox_2.getSelectedItem().toString();
-				int h=Integer.parseInt(f);
+				 
 				int i=Integer.parseInt(g);
+				
+			
+		
+				if(d>17) {
+					count++;
 				if(count==1) {
 				textField_5.setText(a);
 				textField_12.setText(b);
@@ -870,10 +248,14 @@ public class Interfaccia {
 					textField_67.setText(a);
 					textField_74.setText(b);
 					}
-				
-				
 				Entrata.setVisible(false);
 				Visualizza.setVisible(true);
+				
+				}
+				else {
+					JOptionPane.showMessageDialog(null,"Devi essere maggiorenne");
+				}
+				
 			}
 		});
 		btnNewButton_9.setBounds(383, 6, 117, 29);
@@ -882,6 +264,9 @@ public class Interfaccia {
 		btnNewButton_10 = new JButton("Indietro");
 		btnNewButton_10.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				textField.setText("");
+				textField_2.setText("");
+				textField_3.setText("");
 				Entrata.setVisible(false);
 				Inserisci.setVisible(true);
 			}
@@ -978,6 +363,9 @@ public class Interfaccia {
 		btnNewButton_7 = new JButton("Indietro");
 		btnNewButton_7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				textField.setText("");
+				textField_2.setText("");
+				textField_3.setText("");
 				Visualizza.setVisible(false);
 				Entrata.setVisible(true);
 			}
@@ -1382,6 +770,31 @@ public class Interfaccia {
 		btnNewButton_4 = new JButton("Premere per Uscire");
 		btnNewButton_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				String a=comboBox_3.getSelectedItem().toString();
+				String b= comboBox_4.getSelectedItem().toString();
+				int c=Integer.parseInt(a);
+				int d=Integer.parseInt(b);
+				if(chckbxNewCheckBox_2.isSelected()) {
+					textField_51.setText(c+":"+d);
+				}
+				if(chckbxNewCheckBox_1.isSelected()) {
+					textField_52.setText(c+":"+d);
+				}
+				if(chckbxNewCheckBox_3.isSelected()) {
+					textField_53.setText(c+":"+d);
+				}
+				if(chckbxNewCheckBox_4.isSelected()) {
+					textField_54.setText(c+":"+d);
+				}
+				if(chckbxNewCheckBox_5.isSelected()) {
+					textField_55.setText(c+":"+d);
+				}
+				if(chckbxNewCheckBox_6.isSelected()) {
+					textField_56.setText(c+":"+d);
+				}
+				if(chckbxNewCheckBox_7.isSelected()) {
+					textField_57.setText(c+":"+d);
+				}
 				Esci.setVisible(false);
 				Visualizza.setVisible(true);
 			}
@@ -1420,3 +833,4 @@ public class Interfaccia {
 		Inserisci.add(btnNewButton_3);
 	}
 }
+
