@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T07:55:29.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" version="14.6.13" etag="aYzAPvjnSf5JAFoj_AcO" type="github"><diagram id="IvfS0bd020x2TjzFFkCU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-18T08:53:57.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="sq6XWti0FyMBidnTHzlO" version="14.6.13" type="github">
+  <diagram id="IvfS0bd020x2TjzFFkCU" name="Page-1">
+    <mxGraphModel dx="1667" dy="7385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D5ZAGQ3Sc8jKeqQqHXvd-1" value="&lt;font&gt;Use Case Diagram Discoteca Diggh&amp;amp;Sborto&lt;br&gt;&lt;br&gt;Caso d&#39;Uso 1&lt;br&gt;&lt;br&gt;&lt;ul style=&quot;font-size: 12px&quot;&gt;&lt;li&gt;Titolo: Registrazione dell&#39;utente. &amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Attore Principale: Utente anonimo&lt;br&gt;&lt;/li&gt;&lt;li&gt;Ambito: Il sistema informativo visto dal suo interno (White Box)&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Livello: Livello di dettaglio vicino alla percezione dell&#39;utente&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Racconto:&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li&gt;L&#39;utente anonimo accede alla schermata di selezione.&lt;/li&gt;&lt;li&gt;L&#39;utente entra nella sezione inserisci (Accede alle funzioni di registrazione).&lt;/li&gt;&lt;li&gt;L&#39;utente fornisce le seguenti informazioni personali: Nome, Cognome, Età.&lt;/li&gt;&lt;li&gt;L&#39;utente seleziona il tipo di entrata (Biglietto di acquisto) che vuole effettuare.&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;L&#39;utente inserisce l&#39;orario di entrata (Ore e Minuti).&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;L&#39;utente passa alla schermata successiva.&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="-4676" width="460" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D5ZAGQ3Sc8jKeqQqHXvd-2" value="Utente Anonimo&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-4360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5ZAGQ3Sc8jKeqQqHXvd-5" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-4365" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
